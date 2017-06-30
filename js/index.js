@@ -34,7 +34,7 @@
 			{ src: "images/cover1.jpg" },
 			{ src: "images/cover2.jpg" },
 			{ src: "images/cover3.jpg" },
-			{ src: "images/cover4.jpg" },
+			{ src: "images/cover4.JPG" },
 			
 		],
 		
