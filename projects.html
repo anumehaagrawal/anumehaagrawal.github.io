@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Anumeha Agrawal</title>
+		<link rel="stylesheet" rel="nofollow" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+		<!--CSS Files-->
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="css/projects.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+			<!--JavaScript files-->
+
+	        <script type="text/javascript" src="js/projects.json"></script>	
+	        <script type="text/javascript" src="js/android.json"></script>	
+			<script type="text/javascript" src="js/webdev.js"></script>
+			<script type="text/javascript" src="js/index.js"></script>
+			<script type="text/javascript" src="js/android.js"></script>
+			<script type="text/javascript" src="js/ml.js"></script>
+			<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+			</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js">
+			</script>
+			<script type="text/javascript">
+				$(document).scroll(function() {
+				var $banner = $('.banner');
+      			$banner.find('div').toggleClass('purple',$(this).scrollTop() > $banner.height());
+    			$banner.find('div').toggleClass('transparent', $(this).scrollTop() < $banner.height());
+    		});
+			</script>
+
+
+
+	</head>
+
+	<body onload="webdev();androidd() ; machinel()">
+	<div class="banner" style="background-image: url('images/proj.gif');">
+		<header class="navbar-fixed">
+		    <nav class="row navr transparent ">
+		      <div class="col s12">
+		      	    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		        <ul class="left">
+
+		          <li class="left">
+		            <a href=""><img src="images/logo_github_white.png" class="logo"></a>
+		          </li>
+		          <li class="right">
+		            <a href="https://www.facebook.com/anumeha.agrawal.9"><img src="images/logo_fb_white.png" class="logo"></a>
+		          </li>
+		        </ul>
+		        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        			<li><a href="index.html" class="active">Home</a></li>
+        			<li><a href="projects.html">Projects</a></li>
+        			<li><a href="resume.html">Resume</a></li>
+       			</ul>
+       			<ul class=" right side-nav" id="mobile-demo">
+			        <li><a href="index.html" class="active">Home</a></li>
+			        <li><a href="projects.html">Projects</a></li>
+			        <li><a href="resume.html">Resume</a></li>
+
+			    </ul>
+		      </div>
+		    </nav>
+		  </header>
+    
+		  <span class=" white-text " style="font-size: 70px">
+		  	<div class="row">
+		  	<center><p>PROJECTS</p></center>
+		  	<center><i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span></center>
+		    </div>
+		</span>
+	</div>
+    <main>
+    
+		<div class="row">
+		    <div class="col s12 ">
+		      <ul class="tabs tabs-fixed-width ">
+		        <li class="tab col s3 "><a class="active purple-text" href="#webdevelop"><i class="fa fa-window-maximize fa-lg"></i>  Web Development</a></li>
+		        <li class="tab col s3"><a class=" purple-text" href="#machinelearning"><i class="fa fa-medium fa-lg"></i>  Machine Learning</a></li>
+		        <li class="tab col s3 "><a class="purple-text" href="#androiddev"><i class="fa fa-android fa-lg"></i>   Android</a></li>
+		        <li class="tab col s3"><a class="purple-text" href="#others"><i class="fa fa-plus-circle fa-lg"></i>  Others</a></li>
+		        <div class="indicator purple" style="z-index:1"></div>
+		      </ul>
+		    </div>
+		    <div id="webdevelop" class="col s12"></div>
+		    <div id="machinelearning" class="col s12"></div>
+		    <div id="androiddev" class="col s12"></div>
+		    <div id="others" class="col s12"></div>
+  		</div>
+  	
+
+  	</main>
+  		
+	        
+	</body>
+	</html>

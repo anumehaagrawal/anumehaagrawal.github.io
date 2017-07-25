@@ -1,0 +1,87 @@
+var web=[
+
+{
+	"title" : "Personal website",
+	"image" : "personal.jpg",
+	"details":"This is my personal website which is the prime piece of real estate I would like to present to the entire internet. It is an elaborated means to express my skills, hobbies and interests.",
+	"linkg":"anumehaagrawal/github.iott",
+	
+	
+},
+{
+	"title" : "Wheels On Rolls",
+	"image" : "wor.jpg",
+	"details":"This is the website to which I made frontend contributions as a part of my first year internship during my second semester. This was my try at front end web develepment."
+	},
+
+
+{
+	"title" : "SMP",
+	"image" : "smp.jpg",
+	"details":"This is a website made for incoming freshers to NITK. This website presents all aspects of the college ranging from Hostel Rooms to College Fests . It provides information about the Fests ,Clubs ,Councils ,Departments and Sports.",
+	"linkg":""
+	},
+
+{
+	"title" : "Adrokart",
+	"image" : "adrokart.jpg",
+	"details":"This is the website I made as a part of my internship during first year for Adrokart. I designed the front end of the entire website."
+	},
+
+{
+	"title" : "Sell Punch",
+	"image" : "sellpunch.jpg",
+	"details":"This is the website I made as a part of my internship during first year for SellPunch. I designed the front end of the entire website."
+	},
+
+{
+	"title" : "NITK website",
+	"image" : "nitk.jpg",
+	"details":"This is the upcoming website for my college NITK to which I made frontend contributions.This was a very structured project and taught me a lot about coding discipline."
+	}
+
+
+
+
+
+]
+
+var android=[
+
+{
+	"title" : "TO-DO List",
+	"image" : "todo.jpg",
+	"details":"This is a basic app to understand aspects of Android SQL databases. It is a remainder app which helps me keep track of pending work and tasks.",
+	"linkg":"anumehaagrawal/github.iott",
+	
+	
+},
+{
+	"title" : "Court Counter",
+	"image" : "courtcounter.jpg",
+	"details":"This is an android app which helps keep track of scores in a basketball tournament."
+	},
+
+
+{
+	"title" : "Coffee Ordering App",
+	"image" : "coffee.jpg",
+	"details":"This is an android app which helps in ordering coffee . The customer enters all details and his order summary is mailed to the receptionist who makes his order.",
+	"linkg":""
+	},
+
+{
+	"title" : "Miwok Language App",
+	"image" : "miwok.jpg",
+	"details":"This is a language teaching app which I made as a part of the Udacity Adroid course. "
+	}
+
+]
+
+var mlearn=[
+{
+	"title" : "ACM ML Learning",
+	"image" : "ml.jpg",
+	"details":"This is my machine learning project where iris data was trained using logistic regression , SVM , Neural Network."
+}
+]

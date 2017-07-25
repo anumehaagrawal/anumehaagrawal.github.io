@@ -2,6 +2,7 @@
 main {
   flex: 1 0 auto;
 }
+
 .img{
   overflow: hidden;
 }
@@ -98,7 +99,73 @@ body.welcome {
   border-radius: 50%;
   animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards, hide 2s 2.9s ease forwards;
 }
+/* card flip */
+.image{
+      width:500px;
+      height:480px;
+      position:absolute;
+      z-index:4;
+  }
+  .text{
+      position:absolute;
+      z-index:2;
+      padding-left: 10px;
+      font-family: 'Architects Daughter', cursive;
+      width: 500px;
+      top:100px;
+      height: 380px;
+      background-color: #80cbc4 ;
+      transition-duration: 0.7s;  
+      transform: rotateX(180deg) rotate3d(1, 1, 1, 0deg);
+      font-size: 18px;
+  
+  }
+  .cube{
+      width:500px;
+      height:400px;
+      position:relative;
+  }
+  .cube:hover .text{
+      transform: rotateX(0deg) ;
+      height: 380px;
+  }
+  .cube:hover .image{
+    height: 100px;
+  }
 
+@media only screen and (max-width: 789px){
+  .image{
+      width:360px;
+      height:380px;
+      text:"click here ";
+  }
+  .text{
+    width:360px;
+    height:300px;
+    top: 60px;
+    font-size: 15px;
+  }
+  .cube{
+      width:370px;
+      height:300px;
+      position:relative;
+
+  }
+  .cube:hover .text{
+      transform: rotateX(0deg) ;
+      height: 280px;
+  }
+  .aboutmed{
+    margin-top: 80px;
+  }
+  .cube:hover .image{
+    height: 60px;
+  }
+  .countertext{
+      font-size: 20px;
+  }
+
+}
 /* moveIn */
 .welcome header,
 .welcome a.btn {

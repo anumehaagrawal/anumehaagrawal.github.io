@@ -4,7 +4,9 @@
 
           
         $(".card").hide();
-        $(".card").delay(2000).fadeIn(100);  
+        $(".card").delay(2000).fadeIn(100);
+        $(".cube").hide();
+        $(".cube").delay(2000).fadeIn(100);    
          $("#mylife").hide();
         $("#mylife").delay(2000).fadeIn(100);
         $('.materialboxed').hide();
@@ -25,7 +27,7 @@
     	
     	 $(document).scroll(function() {
 		var $nav = $('.navbar-fixed');
-      	$nav.find('nav').toggleClass('purple', $(this).scrollTop() > $nav.height());
+      	$nav.find('nav').toggleClass('purple' ,$(this).scrollTop() > $nav.height());
     	$nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $nav.height());
     
 });
@@ -34,7 +36,7 @@
 			{ src: "images/cover1.jpg" },
 			{ src: "images/cover2.jpg" },
 			{ src: "images/cover3.jpg" },
-			{ src: "images/cover4.JPG" },
+			{ src: "images/cover4.jpg" },
 			
 		],
 		
@@ -46,6 +48,7 @@
    $("#bottom").delay(3200).fadeIn(100);
    $('.tap-target').hide();
    $(".tap-target").delay(3200).fadeIn(100); 
+   $(".button-collapse").sideNav();
 
 
 });
