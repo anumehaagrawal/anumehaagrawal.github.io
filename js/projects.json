@@ -2,7 +2,7 @@ var web=[
 
 {
 	"title" : "Personal website",
-	"image" : "personal.jpg",
+	"image" : "personal.JPG",
 	"details":"This is my personal website which is the prime piece of real estate I would like to present to the entire internet. It is an elaborated means to express my skills, hobbies and interests.",
 	"linkg":"anumehaagrawal/github.iott",
 	
@@ -10,27 +10,27 @@ var web=[
 },
 {
 	"title" : "Wheels On Rolls",
-	"image" : "wor.jpg",
+	"image" : "wor.JPG",
 	"details":"This is the website to which I made frontend contributions as a part of my first year internship during my second semester. This was my try at front end web develepment."
 	},
 
 
 {
 	"title" : "SMP",
-	"image" : "smp.jpg",
+	"image" : "smp.JPG",
 	"details":"This is a website made for incoming freshers to NITK. This website presents all aspects of the college ranging from Hostel Rooms to College Fests . It provides information about the Fests ,Clubs ,Councils ,Departments and Sports.",
 	"linkg":""
 	},
 
 {
 	"title" : "Adrokart",
-	"image" : "adrokart.jpg",
+	"image" : "adrokart.JPG",
 	"details":"This is the website I made as a part of my internship during first year for Adrokart. I designed the front end of the entire website."
 	},
 
 {
 	"title" : "Sell Punch",
-	"image" : "sellpunch.jpg",
+	"image" : "sellpunch.JPG",
 	"details":"This is the website I made as a part of my internship during first year for SellPunch. I designed the front end of the entire website."
 	},
 
@@ -50,7 +50,7 @@ var android=[
 
 {
 	"title" : "TO-DO List",
-	"image" : "todo.jpg",
+	"image" : "todo.JPG",
 	"details":"This is a basic app to understand aspects of Android SQL databases. It is a remainder app which helps me keep track of pending work and tasks.",
 	"linkg":"anumehaagrawal/github.iott",
 	
@@ -58,21 +58,21 @@ var android=[
 },
 {
 	"title" : "Court Counter",
-	"image" : "courtcounter.jpg",
+	"image" : "courtcounter.JPG",
 	"details":"This is an android app which helps keep track of scores in a basketball tournament."
 	},
 
 
 {
 	"title" : "Coffee Ordering App",
-	"image" : "coffee.jpg",
+	"image" : "coffee.JPG",
 	"details":"This is an android app which helps in ordering coffee . The customer enters all details and his order summary is mailed to the receptionist who makes his order.",
 	"linkg":""
 	},
 
 {
 	"title" : "Miwok Language App",
-	"image" : "miwok.jpg",
+	"image" : "miwok.JPG",
 	"details":"This is a language teaching app which I made as a part of the Udacity Adroid course. "
 	}
 
