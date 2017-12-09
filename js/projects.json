@@ -74,6 +74,11 @@ var android=[
 	"title" : "Miwok Language App",
 	"image" : "miwok.JPG",
 	"details":"This is a language teaching app which I made as a part of the Udacity Adroid course. "
+	},
+{
+	"title" : "Google ACSC Android projects",
+	"image" : "scarnedice.png",
+	"details":"This is a set of 6 Android Apps involving different data structures."
 	}
 
 ]
@@ -83,5 +88,30 @@ var mlearn=[
 	"title" : "ACM ML Learning",
 	"image" : "ml.jpg",
 	"details":"This is my machine learning project where iris data was trained using logistic regression , SVM , Neural Network."
+},
+{
+	"title" : "Kaggle datasets",
+	"image" : "ml.jpg",
+	"details":"Different datasets like housing dataset, titanic dataset using different classification and regression algorithms"
+}
+]
+
+var other=[
+{
+	"title": "ChatBot with webscraping",
+	"image":"chat2.png",
+	"details": "This is a java based chatbot which is capable of making normal conversations as well as webscraping"
+
+},
+
+{
+	"title":"Quad Trees",
+	"image":"quadtree.png",
+	"details":"Python implementation of a data structure called quadtree along with its applications like image compression and surface mapping."
+},
+{
+	"title":"Mastermind",
+	"image":"master.jpeg",
+	"details":"Bash shell version of a very famous game called mastermind."
 }
 ]
