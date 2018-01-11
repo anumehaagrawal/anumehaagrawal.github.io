@@ -27,7 +27,7 @@
     	
     	 $(document).scroll(function() {
 		var $nav = $('.navbar-fixed');
-      	$nav.find('nav').toggleClass('purple' ,$(this).scrollTop() > $nav.height());
+      	$nav.find('nav').toggleClass('blue' ,$(this).scrollTop() > $nav.height());
     	$nav.find('nav').toggleClass('transparent', $(this).scrollTop() < $nav.height());
     
 });
@@ -49,6 +49,7 @@
    $('.tap-target').hide();
    $(".tap-target").delay(3200).fadeIn(100); 
    $(".button-collapse").sideNav();
+   
 
 
 });

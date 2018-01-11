@@ -2,6 +2,9 @@
 main {
   flex: 1 0 auto;
 }
+.welcome{
+  background-color: black;
+}
 
 .img{
   overflow: hidden;
@@ -11,7 +14,7 @@ main {
   
   height: 100%;
   background-size: cover;
-  background-color: #4B0082;
+  background-color: black;
  
 }
 .counter{
