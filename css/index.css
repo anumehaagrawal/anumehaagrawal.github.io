@@ -69,8 +69,7 @@ body.welcome {
 }
 .sideimg{
   padding-top: 10px;
-  height: 470px;
-  width: 450px;
+  
   
 }
 .aboutmed{
@@ -104,7 +103,7 @@ body.welcome {
 }
 /* card flip */
 .image{
-      width:500px;
+      width:400px;
       height:480px;
       position:absolute;
       z-index:4;
@@ -114,7 +113,7 @@ body.welcome {
       z-index:2;
       padding-left: 10px;
       font-family: 'Architects Daughter', cursive;
-      width: 500px;
+      width: 400px;
       top:100px;
       height: 380px;
       background-color: #80cbc4 ;
@@ -124,7 +123,7 @@ body.welcome {
   
   }
   .cube{
-      width:500px;
+      width:300px;
       height:400px;
       position:relative;
   }
@@ -149,7 +148,7 @@ body.welcome {
     font-size: 15px;
   }
   .cube{
-      width:370px;
+      width:360px;
       height:300px;
       position:relative;
 
