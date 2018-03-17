@@ -93,12 +93,12 @@ var mlearn=[
 	"title" : "Kaggle datasets",
 	"image" : "ml.jpg",
 	"details":"Different datasets like housing dataset, titanic dataset using different classification and regression algorithms"
-}
+},
 {
 	"title" : "Image Recognition",
 	"image" : "ml.jpg",
 	"details":"Implementation of convolution neural nets for image recognition of dogs and cats"
-}
+},
 {
 	"title" : "Face recognition safety vault",
 	"image" : "ml.jpg",
