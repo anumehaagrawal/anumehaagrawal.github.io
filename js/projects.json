@@ -4,13 +4,14 @@ var web=[
 	"title" : "Personal website",
 	"image" : "personal.JPG",
 	"details":"This is my personal website which is the prime piece of real estate I would like to present to the entire internet. It is an elaborated means to express my skills, hobbies and interests.",
-	"linkg":"anumehaagrawal/github.iott",
+	"linkg":"https://github.com/anumehaagrawal/anumehaagrawal.github.io"
 	
 	
 },
 {
 	"title" : "Wheels On Rolls",
 	"image" : "wor.JPG",
+	"linkg" :"https://github.com/WheelsOnRoll/WORWebsite",
 	"details":"This is the website to which I made frontend contributions as a part of my first year internship during my second semester. This was my try at front end web develepment."
 	},
 
@@ -19,7 +20,7 @@ var web=[
 	"title" : "SMP",
 	"image" : "smp.JPG",
 	"details":"This is a website made for incoming freshers to NITK. This website presents all aspects of the college ranging from Hostel Rooms to College Fests . It provides information about the Fests ,Clubs ,Councils ,Departments and Sports.",
-	"linkg":""
+	"linkg":"http://prism.nitk.ac.in/"
 	},
 
 {
@@ -37,6 +38,7 @@ var web=[
 {
 	"title" : "NITK website",
 	"image" : "nitk.jpg",
+	"linkg" :"https://github.com/salman-bhai/NITKWebsite",
 	"details":"This is the upcoming website for my college NITK to which I made frontend contributions.This was a very structured project and taught me a lot about coding discipline."
 	}
 
@@ -87,21 +89,26 @@ var mlearn=[
 {
 	"title" : "ACM ML Learning",
 	"image" : "ml.jpg",
+	"linkg":"https://github.com/anumehaagrawal/Machine-Learning-notebooks",
 	"details":"This is my machine learning project where iris data was trained using logistic regression , SVM , Neural Network."
 },
 {
 	"title" : "Kaggle datasets",
 	"image" : "ml.jpg",
+	"linkg" : "https://github.com/anumehaagrawal/Breast-Cancer-Prediction",
 	"details":"Different datasets like housing dataset, titanic dataset using different classification and regression algorithms"
 },
 {
 	"title" : "Image Recognition",
 	"image" : "ml.jpg",
+	"linkg" :"https://github.com/anumehaagrawal/Image-Recognition-using-ConvNets",
 	"details":"Implementation of convolution neural nets for image recognition of dogs and cats"
+
 },
 {
 	"title" : "Face recognition safety vault",
 	"image" : "ml.jpg",
+	"linkg" :"https://github.com/anumehaagrawal/Face-Recognition-Safety-Vault",
 	"details":"Implementation of face recognition based safety vault using open cv"
 }
 ]
